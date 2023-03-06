@@ -1,0 +1,255 @@
+.home__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 123px;
+    color: black;
+    padding: 102px 0 136px 0;
+    height: fit-content;
+}
+
+.banner__wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    width: 50%;
+}
+
+.banner__text__heading {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.banner__text__detail {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner__input {
+    display: flex;
+    height: 48px;
+}
+
+.banner__input input {
+    height: 100%;
+    width: 332px;
+    background-color: #F4F2FF;
+    padding: 16px;
+    color: black;
+}
+
+.banner__input button {
+    background-color: #503AE7;
+    height: 100%;
+    width: 154px;
+    color: white;
+}
+
+.banner__input button:hover {
+    background-color: #3E2DB2;
+    cursor: pointer;
+}
+
+.banner__input button:active {
+    background-color: #503AE7;
+}
+
+.banner__image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.banner__image__bar1 {
+    width: 32px;
+    height: 99px;
+    background-color: #503AE7;
+}
+
+.banner__image__bar2 {
+    width: 32px;
+    height: 256px;
+    background-color: #1AD993;
+}
+
+.banner__image__bar3 {
+    width: 32px;
+    height: 178px;
+    background-color: #503AE7;
+}
+
+.banner__image__bar4 {
+    width: 32px;
+    height: 99px;
+    background-color: #1AD993;
+}
+
+.banner__image__bar5 {
+    width: 32px;
+    height: 256px;
+    background-color: #503AE7;
+}
+
+.banner__image__bar6 {
+    width: 32px;
+    height: 178px;
+    background-color: #1AD993;
+}
+
+.banner__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 152px;
+}
+
+.links {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* EPISODES */
+
+.epispdes__wrapper {
+    width: 100%;
+    height: fit-content;
+}
+
+.epispdes__wrapper h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.episode__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.episode__info__text {
+    width: 370px;
+}
+
+.episode__info p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.episode__info button {
+    background-color: #503AE7;
+    height: 100%;
+    width: 195px;
+    color: white;
+    font-size: 16px;
+    height: 48px;
+}
+
+.episode__info button:hover {
+    background-color: #3E2DB2;
+    cursor: pointer;
+}
+
+.episode__info button:active {
+    background-color: #503AE7;
+}
+
+.episode__content {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.episode__content_single {
+    position: relative;
+    height: 516px;
+    overflow: hidden;
+}
+
+.episode__content_single__image {
+    height: 256px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.episode__content_single button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.episode__content_single h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.episode__content_single p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.episode__content_single_link {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.episode__content_single_link h3 {
+    font-weight: 600;
+    font: 16px;
+    color: #503AE7;
+}
+
+.episode__content_single__image_second {
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.episode__content_single h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.episode__bars__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #F4F2FF;
+}
+
+.episode__content__bar1 {
+    height: 232px;
+    width: 75px;
+    background-color: #503AE7;
+    transform: matrix(-0.71, -0.7, 0.71, -0.7, 0, 0);
+}
+
+.episode__content__bar2 {
+    height: 615px;
+    width: 75px;
+    background-color: #1AD993;
+    transform: matrix(-0.71, -0.7, 0.71, -0.7, 0, 0);
+
+}
+
+.episode__content__bar3 {
+    height: 420px;
+    width: 75px;
+    background-color: #503AE7;
+    transform: matrix(-0.71, -0.7, 0.71, -0.7, 0, 0);
+}
