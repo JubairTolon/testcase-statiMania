@@ -95,7 +95,7 @@ const Episodes = () => {
                     </button>
                 </div>
             </div>
-            <div className={styles.episode__content}>
+            <div className={styles.episode__content2}>
                 <div className={styles.episode__content_single}>
                     <span>
                         <h1>Read our articles & news</h1>

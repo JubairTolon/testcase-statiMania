@@ -171,7 +171,6 @@
 
 .episode__content_single {
     position: relative;
-    height: 516px;
     overflow: hidden;
 }
 
@@ -210,6 +209,15 @@
     font-weight: 600;
     font: 16px;
     color: #503AE7;
+}
+
+.episode__content2 {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    height: 530px;
+    margin-bottom: 315px;
 }
 
 .episode__content_single__image_second {
