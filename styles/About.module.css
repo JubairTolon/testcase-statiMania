@@ -1,0 +1,41 @@
+.about__container {
+    padding-top: 160px;
+    padding-bottom: 315px;
+    background-color: white;
+    padding-left: 208px;
+}
+
+.about__content {
+    width: 480px;
+    height: fit-content;
+}
+
+.about__content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.about__content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.about__content button {
+    background-color: #503AE7;
+    height: 100%;
+    width: 195px;
+    color: white;
+    font-size: 16px;
+    height: 48px;
+}
+
+.about__content button:hover {
+    background-color: #3E2DB2;
+    cursor: pointer;
+}
+
+.about__content button:active {
+    background-color: #503AE7;
+}

@@ -4,6 +4,69 @@
 
 }
 
-.footer__wrapper {
-    padding-top: 155px;
+.footer__main {
+    padding-top: 192px;
+    padding-bottom: 96px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    column-gap: 240px;
+    position: relative;
+}
+
+.footer__main__single__container h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer__main__single__container p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footer__main__single__container p:hover {
+    text-decoration: solid underline;
+}
+
+.footer__main__icon__link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.copyright__card {
+    text-align: center;
+    background-color: #503AE7;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 20px 0;
+}
+
+.sponsors {
+    position: absolute;
+    top: -200px;
+    background-color: #503AE7;
+    padding: 72px;
+    text-align: center;
+    left: 85px;
+    right: 85px;
+}
+
+.sponsors h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+
+.sponsors__company {
+    display: flex;
+    column-gap: 85px;
 }
